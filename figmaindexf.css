@@ -1,0 +1,128 @@
+
+/* Format page */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    max-width: 500px;
+}
+    
+header a{
+    margin: 20px;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 8px 16px 8px 16px ;
+    cursor: pointer;
+}
+
+header a:hover{
+    text-decoration: underline;}
+    
+
+footer{
+    background-color: #fafafa;
+    margin: 50px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 0;
+    padding: 14px 24px 16px 24px;
+    cursor: pointer
+}
+
+ul{
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 500px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 500px;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 32px;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 32px;
+}
+
+img{
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 400px;
+    object-fit: cover;
+}
+
+/* Class */
+.firsttext{
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 32px;
+}
+
+/* ID */
+
+/* yellowsection */
+#yellowsection {
+    background-color: #ffc700;
+    margin-top: 100px;
+}
+
+#yellowdiv {
+    max-width: 550px;
+}
+
+/* Community Section */
+#communitysection{
+    background-color:black;
+    color:  white;
+}
+
+#communityp{
+    text-align: center;
+}
+
+#buttonc{
+    color: black;
+    background-color: white;
+    margin: 50px;
+}
+
+/* SignUp form */
+#signupf{
+    margin: 40px 50px 40px 50px;
+}
+
+.signupinput{
+    margin: 10px;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 5px;
+    height: 50px;
+    width: 400px;
+    color: #282828;
+    padding-left: 12px;
+}

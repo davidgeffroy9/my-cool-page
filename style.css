@@ -1,0 +1,66 @@
+  /* Comments */
+
+
+  /* Element selectors */
+  /* targets all the matching elements */
+
+  h1 {
+        color: purple;
+        text-decoration: underline;
+  }
+
+  p {
+    width: 50%;
+    color: yellow;
+    background-color: tomato;
+    padding: 20px 5px;
+    /* Can do padding-left right sideways - panding moves clockwise */
+    margin: 30px ;
+
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button{
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+h3:hover{
+    text-decoration: underline;
+    color: red;
+
+}
+
+/* Class selectors */
+
+.subtitle {
+    color: skyblue;
+}
+
+  /* Universal selectors */
+
+  *{
+    color: red;
+  }
+
+
+  /* ID selectors */
+  #msg {
+    color: green;
+  }
+
+
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+  }
+
